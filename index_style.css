@@ -20,6 +20,9 @@ body{
   gap: 70px;
   padding-left: 40px;
 }
+.nav_adjust a{
+  cursor: pointer;
+}
 .navbar{
     display: flex;
 align-items: center;
@@ -51,9 +54,6 @@ text-align: left;
     padding: 14px 16px;
     text-decoration: none;
   }
-a.active{
-  color:#558A7E ;
-}
   li a:hover {
     color:#558A7E;
   }
@@ -80,6 +80,7 @@ font-size: 14px;
 font-weight: 500;
 line-height: 21px;
 text-align: center;
+cursor: pointer;
 }
 .specific{
 width: 80px;
@@ -92,11 +93,12 @@ font-weight: 500;
 line-height: 21px;
 color: #28574B;
 background: #FFFFFF;
+cursor: pointer;
 }
 
                    /*hero section*/
 .hero_section{
-  width: 100%;
+  width: 1,440px;
   height: fit-content;
   gap: 40px;
   display: flex;
@@ -1067,7 +1069,7 @@ background: #F9F6F0;
 display: flex;
 align-items: center;
 justify-content: center;
-  width: 100%;
+  width: 1,440px;
 height: fit-content;
 max-height: 270px;
 padding: 72px 0px 72px 0px;
@@ -1129,8 +1131,7 @@ opacity: 0px;
   
 }
 .feature_2{
-  width: 100%;
-  max-width:1,440px ;
+width:1,440px ;
 height:fit-content;
 max-height:1,549px ;
 gap: 72px;
