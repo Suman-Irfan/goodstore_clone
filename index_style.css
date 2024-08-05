@@ -104,6 +104,7 @@ cursor: pointer;
   display: flex;
   align-items: center;
 margin-left: 50px;
+overflow: hidden;
 }
 .Graphic_1{
   width:526px;
@@ -660,12 +661,15 @@ color: #FFFFFF;
 }
 .graphic_3_element_1{
   width: 353px;
-  height: fit-content;
+  height:310px;
   gap: 0px;
   border-radius: 24px;
   opacity: 0px;
   background-color: #FFFFFF;
-  ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .graphic_3_element_1_frame_1{
   display: flex;
@@ -677,7 +681,6 @@ gap: 0px;
 border-radius: 16px ;
 opacity: 0px;
 background: #D9FCB4;
-margin-left: 30px;
 }
 .graphic_3_element1_pic{
   Width:261.51px;
@@ -691,7 +694,6 @@ transform: rotate(-11.59deg);
 height: fit-content;
 gap: 8px;
 opacity: 0px;
-margin-left: 30px;
 }
 .graphic_3_element_1_frame_1_detail1{
   width:fit-content;
@@ -720,7 +722,6 @@ color: #0E1012;
   }
   .graphic_3_element_1_frame_1_adj{
     margin-top: 15px;
-    margin-bottom: 10px;
     display: flex;
     gap: 90px;
   }
@@ -1077,6 +1078,7 @@ gap: 10px;
 opacity: 0px;
 background: #28574B;
 position: relative;
+overflow: hidden;
 }
 .feature_1_vector_1{
 position: absolute;
@@ -1137,6 +1139,7 @@ max-height:1,549px ;
 gap: 72px;
 opacity: 0px;
 background-color: #FFFFFF;
+overflow: hidden;
 }
 .feature_2_container{
   display: flex;
@@ -1559,6 +1562,7 @@ padding: 72px 80px 104px 80px;
 gap: 70px;
 opacity: 0px;
 background-color:#FFFFFF ;
+overflow: hidden;
 }
 .feature_3_container{
   display: flex;
@@ -2014,6 +2018,7 @@ padding: 48px 80px 48px 80px;
 gap: 10px;
 opacity: 0px;
   background: #FFFFFF;
+  overflow: hidden;
 }
 .feature_5_container{
   display: flex;
@@ -2180,6 +2185,7 @@ padding: 48px 80px 0px 80px;
 gap: 104px;
 opacity: 0px;
   background: #F9F6F0;
+  overflow: hidden;
 }
 .footer_top{
   display: flex;
